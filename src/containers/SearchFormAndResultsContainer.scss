@@ -1,0 +1,66 @@
+// SearchFormAndResultsContainer.scss
+
+.Search {
+  // background-color: map-get($brand-colors, 'orange' );
+  font-family: $font-stack;
+
+  @include grid-cols-and-gap;
+  grid-template-rows: 
+    50px    // 1. empty
+    100px   // 2. title
+    25px    // 3. empty
+    auto    // 4. form
+    50px    // 5. empty
+  ;
+
+  // place elements
+  
+  &__title {
+    grid-column: 3 / 13;
+    grid-row: 2;
+    
+    // horizontal and vertical centering
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__form {
+    grid-column: content-start / content-end;
+    grid-row: 4;
+  }
+
+  // hide the image
+  &__image {
+    display: none;
+  }
+}
+
+// respond to laptop upwards, change the layout:
+// include the image to the left of title and form
+.Search--showImage {
+  @include for-laptop-up {
+
+    .Search__title {
+      grid-column: 8 / content-end;
+    }
+    .Search__form {
+      grid-column: 8 / content-end;
+    }
+
+    .Search__image {
+      display: block;
+
+      grid-column: 1 / span 7;
+      grid-row: 1 / -1;
+
+      background-image: url('../assets/saloon.png');
+      background-repeat: no-repeat;
+  
+      background-size: cover;
+  
+      // vertical and horizontal centering
+      background-position: center center;
+    }
+  }
+}

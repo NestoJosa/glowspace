@@ -1,0 +1,37 @@
+// _reset.scss
+
+/* remove any default padding and margin from all elements,
+and include the padding and border in their total width and height */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// remove the bullets from the lists
+li { list-style-type: none !important; }
+
+// remove the default underline from all links
+a { text-decoration: none; }
+
+img { 
+  display: block;
+  width: 100%;
+}
+
+/* reset the default button styles */
+button {
+  padding: 0;
+  border: none;
+
+  /* set font and color to inherit,
+  so that we override the browsers default styles  */
+  font: inherit;
+  color: inherit;
+
+  background-color: transparent;
+  cursor: pointer;
+
+  /* remove default outline */
+  outline: none;
+}

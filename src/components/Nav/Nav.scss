@@ -1,0 +1,149 @@
+// Nav.scss
+
+.Nav {
+  background-color: black;
+  color: white;
+  width: 100%;
+  // place the nav on top of other elements
+  z-index: 10000; 
+
+  display: grid;
+  // logic for columns:   margin  logo  burger  margin
+  grid-template-columns:  20px    auto  1fr     20px; 
+  grid-template-rows:
+    10px  // 1. empty
+    50px  // 2. content
+    10px  // 3. empty
+    auto  // 4. menu
+  ;
+
+  // NavLogo
+  &__logo { 
+    grid-column: 2;
+    grid-row: 2;
+    display: block;
+  }
+
+  // NavBurger
+  &__burger { 
+    grid-column: 3;
+    grid-row: 2;
+    // place to the right
+    justify-self: end;
+    // push down for better alignment w logo
+    margin-top: 16px !important; // overrule default styles
+  }
+
+  // NavMenu
+  &__list {
+    // placement
+    grid-column: 1 / -1;
+    grid-row: 4;
+    // styling
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 0; // toggled in the modifier
+    overflow: hidden;
+    transition: height .2s ease-in-out;
+    // grid
+    display: grid;
+    grid-template-columns: 5% 1fr 5%; // margin content margin
+    grid-template-rows:
+      10px    // 1. empty 
+      75px    // 2. listItem 
+      10px    // 3. empty 
+      75px    // 4. listItem 
+      10px    // 5. empty
+      75px    // 6. listItem 
+      10px    // 7. empty 
+    ;
+
+    &--open {
+      height: 270px;
+    }
+  }
+
+  // place items
+  &__listItem:nth-child(1) { grid-row: 2; }
+  &__listItem:nth-child(2) { grid-row: 4; }
+  &__listItem:nth-child(3) { grid-row: 6; }
+  &__listItem              { grid-column: 2; }
+
+  // style the list item
+  &__listItem {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-left: 10px;
+    &:hover { border: 1px solid dimgray; }
+    transition : border 200ms ease-out;
+  }
+
+  &__link {
+    width: 100%;
+    height: 100%;
+
+    // vertical and horizontal centering
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // style the text
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: none;
+    &:visited { color: white; }
+  }
+
+  &__listItemLabel {
+    // adjust the alignment of the 
+    // label and icon
+    margin: 4px 12px 0 0;
+  }
+
+}
+
+.Nav--horizontal {
+  @include for-laptop-up {
+    // change the grid:
+    // remove the last row
+    grid-template-rows:
+      10px  // 1. empty
+      50px  // 2. content
+      10px  // 3. empty
+    ;
+
+    .Nav__burger { display: none; }
+
+    .Nav__list {
+      // take burgers old placement
+      grid-column: 3;
+      grid-row: 2;
+      // reset old height prop
+      height: auto;
+      // from grid to flex
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+
+/* 
+
+  Google Material Icons Styles
+  src: https://google.github.io/material-design-icons/
+
+*/
+
+/* Rules for sizing the icon */
+.material-icons-round.md-18 { font-size: 18px; }
+.material-icons-round.md-24 { font-size: 24px; }
+.material-icons-round.md-36 { font-size: 36px; }
+.material-icons-round.md-48 { font-size: 48px; }
+/* Rules for using icons as white on a dark background. */
+.material-icons-round.md-light { color: rgba(255, 255, 255, 1); }
+
+

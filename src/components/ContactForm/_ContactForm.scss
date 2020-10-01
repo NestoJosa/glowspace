@@ -1,0 +1,96 @@
+// _ContactForm.scss
+
+.ContactForm {
+  display: grid;
+  grid-template-rows: 
+    0px  // 1. empty
+    auto  // 2. heading
+    10px  // 3. empty
+    auto  // 4. form
+    0px  // 5. empty
+  ;
+
+  // place items
+  &__heading { grid-row: 2; }
+  &__form { grid-row: 4; }
+
+  // style items
+  &__heading {
+    font-family: 'sans-serif', 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  // style the form
+  &__form {
+    display: grid;
+    grid-template-rows: 
+      0px  // 1. empty
+      20px  // 2. name input 
+      15px  // 3. error message
+      20px  // 4. email input 
+      25px  // 5. error message 
+      auto  // 6. submit button
+      0px  // 7. empty
+    ;
+  }
+
+  // place the items of __form
+  &__nameInput                    { grid-row: 2; }
+  &__errorMessage:nth-of-type(1)  { grid-row: 3; }
+  &__emailInput                   { grid-row: 4; }
+  &__errorMessage:nth-of-type(2)  { grid-row: 5; }
+  &__submitButton                 { grid-row: 6; }
+
+  // style the input fields
+  &__nameInput, &__emailInput {
+    width: 80%;
+    border-width: 0 0 1px 0;
+    border-color: gray;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+
+    // placeholder is the text that is shown,
+    // when there is no input yet
+    &::placeholder {
+      color: lightgray;
+    }
+  }
+
+  // style the error messages
+  &__errorMessage {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    color: tomato;
+  }
+
+  // style the submit button
+  // src: https://css-tricks.com/overriding-default-button-styles/
+  &__submitButton {
+    display: inline-block;
+    width: fit-content;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    text-decoration: none;
+    background: black;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid grey;
+
+    &:hover, &:focus { 
+      background: lightgrey;
+      color: black; 
+    }
+  }
+}
+
+

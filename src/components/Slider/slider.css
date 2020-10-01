@@ -1,0 +1,42 @@
+
+#slider-section {
+  background-color: #fda200;
+}
+
+/* Image carousel */
+
+#img1 {
+  background-image: url("group.jpg");
+}
+
+#img2 {
+  background-image: url("mudmask.jpg");
+}
+
+#img3 {
+  background-image: url("smiling.jpg");
+}
+
+.img-container {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* 
+  hack to make the buttons appear
+  found on stackoverflow:
+  https://stackoverflow.com/questions/29813828/slick-slider-how-to-set-arrows-inside-and-not-outside
+*/
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}

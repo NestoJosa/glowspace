@@ -1,0 +1,56 @@
+{
+  "homepage": "http://nestojosa.github.io/glowspace",
+  "name": "glowspace",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@n8tb1t/use-scroll-position": "^1.0.43",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "formik": "^2.1.5",
+    "react": "^16.13.1",
+    "react-animated-burgers": "^1.2.8",
+    "react-dom": "^16.13.1",
+    "react-hamburger-button": "0.0.1",
+    "react-headroom": "^3.0.0",
+    "react-loader-spinner": "^3.1.14",
+    "react-modern-calendar-datepicker": "^3.1.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-slick": "^0.27.11",
+    "react-spinner-material": "^1.3.1",
+    "react-spinners": "^0.9.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "styled-components": "^5.2.0",
+    "svg-loaders-react": "^2.2.1",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1"
+  }
+}

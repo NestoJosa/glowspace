@@ -1,0 +1,23 @@
+/* Line.scss */
+
+.LineWithDots {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.Dot {
+  height: 3px;
+  width: 3px;
+  background-color: map-get($brand-colors, 'orange');
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.Line {
+  border-bottom-style: solid;
+  border-bottom-color: map-get($brand-colors, 'orange');
+  border-bottom-width: 0.5px;
+  width: 40vw;
+}
+

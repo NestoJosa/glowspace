@@ -1,0 +1,78 @@
+
+.treament-wrapper {
+
+}
+
+.treatment-price {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  color: #382400;
+}
+
+.treatment-name {
+  display: block;
+  padding-top: 7px;
+  
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  line-height: 22px;
+}
+
+.treatment-description {
+  display: block;
+  padding-top: 5px; 
+
+  font-size: 14px;
+  font-family: 'Montserrat';
+  line-height: 20px;
+}
+
+.treatment-next-duration-availability-wrapper {
+  padding-top: 5px; /* <top-and-bottom> <left-and-right> */
+}
+
+.icon-label-wrapper {
+  display: flex;
+  /* place the items on the center in the vertical axis */
+  align-items: center;
+}
+
+/* Treatment Icons */
+
+.treatment-next-icon {
+  background-image: url(../../../../assets/icons/clock.svg);
+}
+.treatment-duration-icon {
+  background-image: url(../../../../assets/icons/timelapse.svg);
+}
+
+.treatment-availability-icon {
+  background-image: url(../../../../assets/icons/calendar.svg);
+}
+
+.treatment-next-icon, .treatment-duration-icon, .treatment-availability-icon {
+  background-repeat: no-repeat;
+  display: block;
+  width: 24px;
+  height: 24px;
+  opacity: 0.8;
+}
+
+/* Treatment Icon Labels */
+.treatment-next, .treatment-duration, .treatment-availability {
+  padding-top: 2px;
+  padding-left: 5px;
+  font-size: 11px;
+  font-family: 'Montserrat';
+}
+
+/* Horizontal Line */
+
+.hl {
+  border-top: 1px solid black;
+  width: 150px;
+  opacity: 0.1;
+  margin: 15px auto 15px auto;
+}

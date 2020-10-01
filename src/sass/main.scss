@@ -1,0 +1,45 @@
+/* main.scss */
+
+/* 
+
+  Abstracts
+
+*/
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+
+/* 
+
+  Base
+
+*/
+
+@import './base/reset';
+@import './base/layout';
+@import './base/typography';
+
+/* 
+
+  Components
+
+*/
+
+/* Component Styles Imports - 
+note: the files live in each src/components-folder  */
+@import '../components/Footer/Footer';
+@import '../components/ContactForm/ContactForm';
+@import '../components/LinksBlock/LinksBlock';
+@import '../components/AddressBlock/AddressBlock';
+@import '../components/SoMe/SoMe';
+@import '../components/Line/Line';
+
+@import '../components/Footer/Legal/Legal';
+
+// Nav
+@import '../components/Nav/Nav';
+
+// SearchFormAndResultsContainer
+@import '../components/Search/Search.scss';
+@import '../components/Search/SearchForm/SearchForm.scss';
+@import '../components/Search/SearchResults/SearchResults.scss';

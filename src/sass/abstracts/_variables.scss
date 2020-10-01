@@ -1,0 +1,27 @@
+/* _variables.scss */
+
+/* 
+
+  VARIABLES
+
+*/
+
+/* the standard max width */
+$content-wrapper-max-width: 1600px;
+
+/* three breakpoints */
+$breakpoints: (
+  'large': 82em, // => 1312px 
+  'medium': 62em, // => 992px
+  'small': 43em, // => 688px
+);
+
+$brand-colors: (
+  'orange': #f6aa02,  
+);
+
+
+/* font-stack */
+$font-stack: 
+  "Helvetica Neue", Helvetica, Arial, sans-serif !default
+;

@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/glowspace/static/css/main.f6a4a721.chunk.css",
+    "main.js": "/glowspace/static/js/main.b200037e.chunk.js",
+    "main.js.map": "/glowspace/static/js/main.b200037e.chunk.js.map",
+    "runtime-main.js": "/glowspace/static/js/runtime-main.8529711a.js",
+    "runtime-main.js.map": "/glowspace/static/js/runtime-main.8529711a.js.map",
+    "static/css/2.1ca0c21d.chunk.css": "/glowspace/static/css/2.1ca0c21d.chunk.css",
+    "static/js/2.bf2feb25.chunk.js": "/glowspace/static/js/2.bf2feb25.chunk.js",
+    "static/js/2.bf2feb25.chunk.js.map": "/glowspace/static/js/2.bf2feb25.chunk.js.map",
+    "index.html": "/glowspace/index.html",
+    "precache-manifest.59a7a4d1cfb8eca043fb6bb3b63c0b2c.js": "/glowspace/precache-manifest.59a7a4d1cfb8eca043fb6bb3b63c0b2c.js",
+    "service-worker.js": "/glowspace/service-worker.js",
+    "static/css/2.1ca0c21d.chunk.css.map": "/glowspace/static/css/2.1ca0c21d.chunk.css.map",
+    "static/css/main.f6a4a721.chunk.css.map": "/glowspace/static/css/main.f6a4a721.chunk.css.map",
+    "static/js/2.bf2feb25.chunk.js.LICENSE.txt": "/glowspace/static/js/2.bf2feb25.chunk.js.LICENSE.txt",
+    "static/media/body.svg": "/glowspace/static/media/body.bfcf9130.svg",
+    "static/media/Treatment.css": "/glowspace/static/media/timelapse.4dde0552.svg",
+    "static/media/face.svg": "/glowspace/static/media/face.d90c6764.svg",
+    "static/media/facebook_logo.svg": "/glowspace/static/media/facebook_logo.42394d85.svg",
+    "static/media/feet.svg": "/glowspace/static/media/feet.88759ce7.svg",
+    "static/media/slider.css": "/glowspace/static/media/smiling.c159c92f.jpg",
+    "static/media/hair.svg": "/glowspace/static/media/hair.b757513c.svg",
+    "static/media/hand.svg": "/glowspace/static/media/hand.62238338.svg",
+    "static/media/instagram_icon.svg": "/glowspace/static/media/instagram_icon.d624299d.svg",
+    "static/media/linkedin_logo.svg": "/glowspace/static/media/linkedin_logo.d3531c26.svg",
+    "static/media/SaloonCard.css": "/glowspace/static/media/location.23abf04a.svg",
+    "static/media/logo_round.svg": "/glowspace/static/media/logo_round.0d4df4b8.svg",
+    "static/media/logo_white.svg": "/glowspace/static/media/logo_white.bd27c463.svg",
+    "static/media/main.scss": "/glowspace/static/media/saloon-medium.6d4653b5.jpg",
+    "static/media/slick-theme.css": "/glowspace/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8529711a.js",
+    "static/css/2.1ca0c21d.chunk.css",
+    "static/js/2.bf2feb25.chunk.js",
+    "static/css/main.f6a4a721.chunk.css",
+    "static/js/main.b200037e.chunk.js"
+  ]
+}

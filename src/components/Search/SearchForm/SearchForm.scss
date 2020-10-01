@@ -1,0 +1,110 @@
+// SearchForm.scss
+
+/* 
+
+  #refactorm 
+  currently: we have copy pasted styles from multiple old files in here
+  expected: merge into one block using sass
+
+*/
+
+.SearchForm {
+  background-color: white;
+  border-radius: 8px;
+
+  /* https://brumm.af/shadows */
+  box-shadow:
+    0 0.2px 2.2px rgba(0, 0, 0, 0.02),
+    0 0.6px 5.3px rgba(0, 0, 0, 0.028),
+    0 1.1px 10px rgba(0, 0, 0, 0.035),
+    0 2px 17.9px rgba(0, 0, 0, 0.042),
+    0 3.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 9px 80px rgba(0, 0, 0, 0.07) 
+  ;
+
+  // Gid
+  display: grid;    
+  grid-template-columns: 5% 1fr 5%;
+  grid-template-rows:
+    30px  // 1. empty
+    auto  // 2. treatment icons
+    15px  // 3. empty 
+    auto  // 4. pick treat area dropdown 
+    15px  // 5. empty
+    auto  // 6. pick date dropdown
+    15px  // 7. empty
+    auto  // 8. submit button
+    30px  // 9. empty
+  ;
+
+  font-size: 2.3vw;
+  @include for-laptop-up {
+    font-size: 1.5vw;
+  }
+
+  &__treatAreaIconBtnList {
+    grid-column: 2;
+    grid-row: 2;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 2%;
+  }
+
+  &__treatAreaIconBtn {
+    padding: 5px;
+    border: 0.5px solid lightgrey;
+    border-radius: 8px;
+    
+    &:hover, &:focus {
+      border: 0.5px solid black;
+    }
+
+    filter: opacity(100%);
+    transition: all 200ms ease-out;
+
+    &--notActive {
+      filter: opacity(50%);
+      transition: all 200ms ease-out; 
+    }
+  }
+
+  &__treatAreaIconBtnLabel {
+    display: block;
+    margin-top: 5px;
+    
+  }
+
+  &__treatmentAreasDrowdown {
+    grid-column: 2;
+    grid-row: 4;
+
+  }
+
+  &__pickDateDropdown {
+    grid-column: 2;
+    grid-row: 6;
+
+  }
+  
+  &__submitButton {
+    grid-column: 2;
+    grid-row: 8;
+    justify-self: end;
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+    height: 50px;
+    width: 40%;
+    &:hover, &:focus {
+      border: 0.5px solid black;
+    }
+    transition: all 200ms ease-out;
+  }
+}
+
+.SearchForm--loading {
+  .SearchForm__submitButton {
+    
+    border: 0.5px solid lightgray;
+  }
+}

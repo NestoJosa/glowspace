@@ -1,0 +1,27 @@
+// _LinksBlock.scss
+
+.LinksBlock {
+  font-family: $font-stack;
+
+  // style the heading
+  &__heading { 
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 12px;
+  }
+
+  // add some bottom space to the list items
+  // except for the last one
+  &__listItem:not(:last-child) { margin-bottom: 5px; }
+
+  &__anchor {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+    // keep the white color on visited links
+    :visited { color: white; }
+  }
+}

@@ -1,0 +1,26 @@
+/* _mixins.scss */
+
+/* 
+
+  MIXINS - 
+
+  Note: layout related mixins live in _layout.scss
+
+*/
+
+
+
+/* 
+
+  Dev
+
+*/
+
+@mixin border($color) {
+  border: 0.5px solid $color;
+}
+
+/******************************/
+/******************************/
+/******************************/
+

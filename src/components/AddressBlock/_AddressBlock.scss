@@ -1,0 +1,25 @@
+// _AddressBlock.scss
+
+.AddressBlock {
+
+  // refactor:
+  // what if we create a footer-heading mixin that we can reuse
+  // on all of the headings in the footer?
+  &__heading {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 12px;
+  }
+
+  &__list {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &__listItem:last-child {
+    opacity: 0.3;
+  }
+}
