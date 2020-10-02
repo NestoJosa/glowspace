@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea7075890eb690fb4424cfcd2bdc1f8f",
+    "revision": "8015dbc72b82d9302e338426ba76a683",
     "url": "/glowspace/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glowspace/static/css/2.1ca0c21d.chunk.css"
   },
   {
-    "revision": "d1ed92e09892514f62b8",
+    "revision": "8abde79220e1977099fb",
     "url": "/glowspace/static/css/main.f6a4a721.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glowspace/static/js/2.bf2feb25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d1ed92e09892514f62b8",
-    "url": "/glowspace/static/js/main.b200037e.chunk.js"
+    "revision": "8abde79220e1977099fb",
+    "url": "/glowspace/static/js/main.81bb653d.chunk.js"
   },
   {
     "revision": "1b7d236552882324d6ef",
