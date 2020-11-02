@@ -2,8 +2,7 @@ import React from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 import './SaloonCard.css';
 
-// kick off the polyfill!
-// this is a a smoothScroll requirement:
+// smoothScroll requirement:
 // https://www.npmjs.com/package/smoothscroll-polyfill
 smoothscroll.polyfill();
 
