@@ -39,12 +39,13 @@
      id="namedview1814"
      showgrid="false"
      inkscape:zoom="3.1517241"
-     inkscape:cx="83.922319"
-     inkscape:cy="145"
+     inkscape:cx="75.878041"
+     inkscape:cy="136.75055"
      inkscape:window-x="0"
      inkscape:window-y="26"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g1810" />
+     inkscape:current-layer="svg1812"
+     inkscape:document-rotation="0" />
   <defs
      id="defs1800">
     <clipPath
@@ -63,7 +64,7 @@
        transform="translate(681.178 -2365.353)"
        opacity="0.158"
        id="path1802"
-       style="fill:#014edf;fill-opacity:1" />
+       style="fill:#fda200;fill-opacity:1;opacity:0.25" />
     <g
        transform="translate(417.958 431.447)"
        clip-path="url(#a)"

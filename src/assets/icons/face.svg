@@ -35,16 +35,17 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1080"
+     inkscape:window-height="1054"
      id="namedview1075"
      showgrid="false"
      inkscape:zoom="3.1517241"
-     inkscape:cx="83.922319"
+     inkscape:cx="109.44174"
      inkscape:cy="145"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="26"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g1069" />
+     inkscape:current-layer="g1069"
+     inkscape:document-rotation="0" />
   <defs
      id="defs1057">
     <clipPath
@@ -66,7 +67,7 @@
          transform="translate(262.867 -2796.852)"
          opacity="0.155"
          id="path1059"
-         style="fill:#014edf;fill-opacity:1" />
+         style="fill:#fda200;fill-opacity:1;opacity:0.25" />
       <g
          clip-path="url(#a)"
          id="g1067">

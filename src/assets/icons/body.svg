@@ -39,12 +39,13 @@
      id="namedview3179"
      showgrid="false"
      inkscape:zoom="3.1517241"
-     inkscape:cx="83.922319"
-     inkscape:cy="145"
+     inkscape:cx="154.39275"
+     inkscape:cy="133.89497"
      inkscape:window-x="0"
      inkscape:window-y="26"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g3171" />
+     inkscape:current-layer="g3171"
+     inkscape:document-rotation="0" />
   <defs
      id="defs3145">
     <clipPath
@@ -71,7 +72,7 @@
            transform="translate(263.576 -2796.853)"
            opacity="0.158"
            id="path3147"
-           style="fill:#014edf;fill-opacity:1" />
+           style="fill:#fda200;fill-opacity:1;opacity:0.25" />
         <g
            clip-path="url(#a)"
            id="g3169"
