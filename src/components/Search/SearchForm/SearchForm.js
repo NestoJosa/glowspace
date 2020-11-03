@@ -39,7 +39,7 @@ const SearchForm = props => {
       color="black"
       height={30}
       width={50}
-    /> : 'Submit'
+    /> : 'Find'
   ;
     
   return(
