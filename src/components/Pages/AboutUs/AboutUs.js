@@ -33,7 +33,7 @@ const About = () => {
     return (
       // a unique key is required in react-land when creating lists
       <ul
-        className="Founder" 
+        className="Founder Founder--horizontal" 
         key={"Founder__image" + index}>
           <li className="Founder__image">
             <img src={founder.image} alt={"Profile of" + founder.name}/>
@@ -49,7 +49,7 @@ const About = () => {
 
       <h1 className="AboutUs__heading">Meet the team</h1>
 
-      <div class="FoundersWrapper">
+      <div class="FoundersWrapper FoundersWrapper--horizontal">
         {listOfFounders}
       </div>
       
