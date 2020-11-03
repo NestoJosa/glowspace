@@ -12,9 +12,20 @@
 // wraps each founders-unordered-list
 .FoundersWrapper {
   border: 1px solid black;
+  @include grid-cols-and-gap;
 }
 
-.Founder {
+.Founder {  
+  &:nth-child(1) { 
+    grid-column: content-start / content-end;
+  }
+  &:nth-child(2) { 
+    grid-column: content-start / content-end;
+  }
+  &:nth-child(3) { 
+    grid-column: content-start / content-end;
+  }
+
   &__image {
     
   }
