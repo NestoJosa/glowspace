@@ -1,6 +1,10 @@
 // AboutUs.scss
 
 .AboutUs {
+  color: white;
+  background-color: #383acf;
+  background-image: url('../../../assets/bubbles-light-opacity.png');
+
   &__heading {
     text-align: center;
     font-size: 30px;
@@ -11,7 +15,6 @@
 
 // wraps each founders-unordered-list
 .FoundersWrapper {
-  border: 1px solid black;
   @include grid-cols-and-gap;
 }
 
@@ -27,12 +30,14 @@
   }
 
   &__image {
-    
+    padding: 25px;
   }
+
   &__name {
-    
+    text-align: center;
   }
+
   &__title {
-    
+    text-align: center;
   }
 }
