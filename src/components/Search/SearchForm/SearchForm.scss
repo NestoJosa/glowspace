@@ -52,27 +52,27 @@
   }
 
   &__treatAreaIconBtn {
-    padding: 5px;
+    padding: 15px 10px 10px 10px;
     border: 0.5px solid lightgrey;
     border-radius: 8px;
     
     &:hover, &:focus {
-      border: 0.5px solid black;
+      border: 0.5px solid grey;
     }
 
     filter: opacity(100%);
     transition: all 200ms ease-out;
 
     &--notActive {
-      filter: opacity(50%);
+      filter: opacity(30%);
       transition: all 200ms ease-out; 
     }
   }
 
   &__treatAreaIconBtnLabel {
     display: block;
-    margin-top: 5px;
-    
+    margin-top: 8px;
+    font-size: 12px;
   }
 
   &__treatmentAreasDrowdown {
