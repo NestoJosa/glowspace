@@ -43,16 +43,17 @@ button {
   }
 
   &__buttonLabel {
-    // style the label 
+    // style the label
+    font-size: 12px; 
   }
 
   &__buttonIcon {
     grid-column: 3;
     justify-self: end;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
-    border: solid black;
+    border: solid #404040;
     border-width: 0 3px 3px 0;
     padding: 3px;
     transform: rotate(45deg);
