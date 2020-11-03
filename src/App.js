@@ -6,7 +6,7 @@ import ScrollToTop from './components/Nav/ScrollToTop/ScrollToTop';
 import Home from './components/Pages/Home/Home';
 import Login from './components/Pages/Login/Login';
 import Register from './components/Pages/Register/Register';
-import About from './components/Pages/About/About';
+import AboutUs from './components/Pages/AboutUs/AboutUs';
 import Partners from './components/Pages/Partners/Partners';
 // the Error component is for when users try to access a non-existing url
 import Error from './components/Pages/Error/Error';
@@ -26,7 +26,7 @@ function App() {
           <Route path="/glowspace" component={Home} exact /> {/* added glowspace after slash */}
           <Route path="/login" component={Login} exact />
           <Route path="/register" component={Register} exact />
-          <Route path="/about" component={About} />
+          <Route path="/about" component={AboutUs} />
           <Route path="/partners" component={Partners} />
           <Route component={Error} />
         </Switch>
