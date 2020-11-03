@@ -32,22 +32,24 @@ const About = () => {
   const listOfFounders = Object.values(founders).map( (founder, index) => {
     return (
       // a unique key is required in react-land when creating lists
-      <ul key={"founder" + index}>
-        <li >
-          <img src={founder.image} alt={"Profile of" + founder.name}/>
-        </li>
-        <li >{founder.name}</li>
-        <li >{founder.title}</li>
+      <ul
+        className="Founder" 
+        key={"Founder__image" + index}>
+          <li className="Founder__image">
+            <img src={founder.image} alt={"Profile of" + founder.name}/>
+          </li>
+          <li className="Founder__name">{founder.name}</li>
+          <li className="Founder__title">{founder.title}</li>
       </ul>   
     )
   });
 
   return (
-    <div className="Content">
+    <div className="Content AboutUs">
 
-      <h1>Meet the team</h1>
+      <h1 className="AboutUs__heading">Meet the team</h1>
 
-      <div>
+      <div class="FoundersWrapper">
         {listOfFounders}
       </div>
       

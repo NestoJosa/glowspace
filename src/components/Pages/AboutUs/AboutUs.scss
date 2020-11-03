@@ -1,1 +1,27 @@
 // AboutUs.scss
+
+.AboutUs {
+  &__heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
+
+// wraps each founders-unordered-list
+.FoundersWrapper {
+  border: 1px solid black;
+}
+
+.Founder {
+  &__image {
+    
+  }
+  &__name {
+    
+  }
+  &__title {
+    
+  }
+}
