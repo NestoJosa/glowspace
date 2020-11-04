@@ -1,22 +1,50 @@
 // Partners.scss
 
 .Partners {
+  background-color: #f6aa0225;
+  @include grid-cols-and-gap;
+  grid-template-rows:
+    400px   // image
+    50px    // empty
+    auto    // heading
+    20px    // empty
+    auto    // body
+    75px    // empty  
+  ;
   
+  &__image {
+    grid-column: 1 / 15;
+    grid-row: 1;
+
+    background-image: url(../../../assets/barber/alexandre-lecocq-Y5nIFhQlzlo-unsplash-L.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
 
   &__heading {
-
-  }
-
-  &__backgroundImage {
-
-  }
-
-  &__subHeading {
-
+    grid-column: content-start / content-end;
+    grid-row: 3;
+    align-self: center;
+    font-size: 25px;
+    color: black;
   }
 
   &__body {
+    grid-column: content-start / content-end;
+    grid-row: 5;
+    color: black;
+    font-weight: 300;
+  }
 
+  &__list {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  li {
+    list-style-type: disc !important;
+    margin-bottom: 0.5em;
   }
 
   &__contactButton {
