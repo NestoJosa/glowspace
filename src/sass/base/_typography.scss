@@ -1,5 +1,14 @@
 // _typography.scss
 
+body {
+  //font-family: 'Segoe', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;   
+}
+
+p {
+  margin-bottom: 1em;
+}
+
 @mixin footer-heading {
   font-size: 11px;
   font-weight: 700;
