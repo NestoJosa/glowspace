@@ -1,4 +1,7 @@
+# ignore the following directories and their contents:
 node_modules/
+build/
+
+# ignore any files with the following file names
 .DS_Store
 .env
-build/
