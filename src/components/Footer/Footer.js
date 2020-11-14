@@ -65,11 +65,11 @@ const links = {
     },
     {
       desc: 'find salon',
-      href: '#'
+      href: '/glowspace'
     },
     {
       desc: 'opret salon',
-      href: '#'
+      href: '/partners'
     },
   ]
 };
@@ -80,11 +80,11 @@ const aboutUs = {
   links: [
     {
       desc: 'team',
-      href: '#'
+      href: '/about'
     },
     {
       desc: 'kontakt',
-      href: '#'
+      href: 'mailto:hej@glowspace.dk?subject=Kontakt'
     },
   ]
 };
