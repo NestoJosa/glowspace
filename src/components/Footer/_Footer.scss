@@ -1,6 +1,10 @@
 /* Footer.scss */
 
 .FooterWrapper {
+  background-color: black;
+}
+
+.Footer {
   @include grid-cols-and-gap;
   grid-template-rows:
     40px  // 1. empty
@@ -53,13 +57,11 @@
     align-items: center;
   }
   // Legal
-  .FooterWrapper__item:nth-child(8) {
+  &__item:nth-child(8) {
     grid-column: content-start / content-end;
     grid-row: 9;
   }
 
-  // black background
-  background-color: black;
   // white text
   color: white;
   // global font styles
@@ -68,7 +70,7 @@
 
 // respond to tablets upwards - change the layout for the content
 // from three rows, to two rows
-.FooterWrapper--twoRows {
+.Footer--twoRows {
   @include for-tablet-up {
     grid-template-rows:
       20px  // 1. empty
@@ -82,42 +84,42 @@
 
     // change placement of items
     // logo
-    .FooterWrapper__item:nth-child(1) {
+    .Footer__item:nth-child(1) {
       grid-column: 2 / span 4;
       grid-row: 2;
     }
     // contact form
-    .FooterWrapper__item:nth-child(2) {
+    .Footer__item:nth-child(2) {
       grid-column: 6 / span 4;
       grid-row: 2;
     }
     // links
-    .FooterWrapper__item:nth-child(3) {
+    .Footer__item:nth-child(3) {
       grid-column: 10 / span 4;
       grid-row: 2;
     }
     // about us
-    .FooterWrapper__item:nth-child(4) {
+    .Footer__item:nth-child(4) {
       grid-column: 2 / span 4;
       grid-row: 4;
     }
     // address
-    .FooterWrapper__item:nth-child(5) {
+    .Footer__item:nth-child(5) {
       grid-column: 6 / span 4;
       grid-row: 4;
     }
     // SoMe
-    .FooterWrapper__item:nth-child(6) {
+    .Footer__item:nth-child(6) {
       grid-column: 10 / span 4;
       grid-row: 4;
     }
     // line with dots
-    .FooterWrapper__item:nth-child(7) {
+    .Footer__item:nth-child(7) {
       grid-column: content-start / content-end;
       grid-row: 6;
     }
     // Legal
-    .FooterWrapper__item:nth-child(8) {
+    .Footer__item:nth-child(8) {
       grid-column: content-start / content-end;
       grid-row: 7;
     }
@@ -125,7 +127,7 @@
 }
 
 // respond to laptops upwards: one row for the main content
-.FooterWrapper--oneRow {
+.Footer--oneRow {
   @include for-laptop-up {
     grid-template-rows:
       20px  // 1. empty
@@ -137,42 +139,42 @@
 
     // change placement of items
     // row placement
-    .FooterWrapper__item:nth-child(n) {
+    .Footer__item:nth-child(n) {
       grid-row: 2
     }
 
     // col placement
     // logo
-    .FooterWrapper__item:nth-child(1) {
+    .Footer__item:nth-child(1) {
       grid-column: 2 / span 2;
     }
     // contact form
-    .FooterWrapper__item:nth-child(2) {
+    .Footer__item:nth-child(2) {
       grid-column: 4 / span 2;
     }
     // links
-    .FooterWrapper__item:nth-child(3) {
+    .Footer__item:nth-child(3) {
       grid-column: 6 / span 2;
     }
     // about us
-    .FooterWrapper__item:nth-child(4) {
+    .Footer__item:nth-child(4) {
       grid-column: 8 / span 2;
     }
     // address
-    .FooterWrapper__item:nth-child(5) {
+    .Footer__item:nth-child(5) {
       grid-column: 10 / span 2;
     }
     // SoMe
-    .FooterWrapper__item:nth-child(6) {
+    .Footer__item:nth-child(6) {
       grid-column: 12 / span 2;
     }
     // Line with dots
-    .FooterWrapper__item:nth-child(7) {
+    .Footer__item:nth-child(7) {
       grid-column: content-start / content-end;
       grid-row: 4;
     }
     // Legal
-    .FooterWrapper__item:nth-child(8) {
+    .Footer__item:nth-child(8) {
       grid-column: content-start / content-end;
       grid-row: 5;
     }
