@@ -8,9 +8,6 @@ const Search = props => {
   return(
     <div className="Search Search--horizontal">
       <div className="Search__backgroundImage"></div>
-      <div className="Search__title">
-        Find en behandling idag
-      </div>
       <div className="Search__formWrapper">
         <SearchFormContainer
           getSearchResults={props.getSearchResults}
