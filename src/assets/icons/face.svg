@@ -35,16 +35,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1054"
+     inkscape:window-height="1035"
      id="namedview1075"
      showgrid="false"
      inkscape:zoom="3.1517241"
-     inkscape:cx="109.44174"
-     inkscape:cy="145"
+     inkscape:cx="48.364059"
+     inkscape:cy="166.57549"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="159"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g1069"
+     inkscape:current-layer="g1065"
      inkscape:document-rotation="0" />
   <defs
      id="defs1057">
@@ -67,7 +67,7 @@
          transform="translate(262.867 -2796.852)"
          opacity="0.155"
          id="path1059"
-         style="fill:#fda200;fill-opacity:1;opacity:0.25" />
+         style="fill:#d2e0fa;fill-opacity:1;opacity:1" />
       <g
          clip-path="url(#a)"
          id="g1067">
@@ -82,7 +82,8 @@
           <path
              d="M181.747,37.109c22.263,53.351,7.066,64-35.565,76.472,1.457.513-25.714,44.659,19.195,99.924,27.1,38.71-10.122,87.6-34.972,113.121-29.564,6.449-8.248,29.321-62.83-10.555L37.422,284.616S.45,225.363,15.754,158.408c-.291.22,8.389-61.854,51.821-88.255-.8.587,29.717-40.662,84.225-34.8"
              transform="translate(-12.043 -34.786)"
-             id="path1063" />
+             id="path1063"
+             style="fill:#014edf;fill-opacity:1" />
         </g>
       </g>
     </g>
