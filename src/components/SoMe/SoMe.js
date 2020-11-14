@@ -10,7 +10,7 @@ const SoMe = props => {
       <h2 className="SoMe__heading">Sociale Medier</h2>
       
       <div className="SoMe__item">
-        <a href="#" className="SoMe__anchor">
+        <a href="https://www.facebook.com/Glowspacedk/" className="SoMe__anchor">
           <img 
             className="SoMe__fbLogo"  
             src={fbLogo} 
@@ -20,7 +20,7 @@ const SoMe = props => {
       </div>
 
       <div className="SoMe__item">
-        <a href="#" className="SoMe__anchor">
+        <a href="https://www.instagram.com/glowspacedk/" className="SoMe__anchor">
           <img 
             className="SoMe__instaLogo"  
             src={instaLogo} 
@@ -30,7 +30,7 @@ const SoMe = props => {
       </div>
 
       <div className="SoMe__item">
-        <a href="#" className="SoMe__anchor">
+        <a href="https://www.linkedin.com/company/glowspace/" className="SoMe__anchor">
           <img 
             className="SoMe__linkedinLogo"  
             src={linkedinLogo} 
