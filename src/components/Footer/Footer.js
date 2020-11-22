@@ -24,6 +24,10 @@ const Footer = () => {
         </div>
         <div className="Footer__item">
           <LinksBlock data={aboutUs} />
+          {/* the following anchor is just added here until the /kontakt page has been made */}
+          <span className="kontakt-hack">
+            <a className="LinksBlock__anchor" href="mailto:hej@glowspace.dk?subject=Kontakt">kontakt</a>
+          </span>
         </div>
         <div className="Footer__item">
           <AddressBlock />
@@ -47,7 +51,8 @@ export default Footer;
 
 /* 
 
-  Data for the links blocks
+  Data for the links blocks:
+  - certain links are commented out, because the pages have not been created yet
 
 */
 
@@ -55,14 +60,14 @@ export default Footer;
 const links = {
   heading: 'Links',
   links: [
-    {
+    /* {
       desc: 'faq',
       href: '#'
     },
     {
       desc: 'blog',
       href: '#'
-    },
+    }, */
     {
       desc: 'find salon',
       href: '/'
@@ -82,9 +87,9 @@ const aboutUs = {
       desc: 'team',
       href: '/about'
     },
-    {
+/*     {
       desc: 'kontakt',
-      href: 'mailto:hej@glowspace.dk?subject=Kontakt'
-    },
+      href: '/kontakt'
+    }, */
   ]
 };

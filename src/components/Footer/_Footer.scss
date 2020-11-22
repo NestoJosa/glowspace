@@ -182,3 +182,14 @@
     @include max-width-margin-auto;
   }
 }
+
+/* 
+
+  Hack
+
+*/
+
+.kontakt-hack {
+  // hack to add top-buffer to kontakt
+  line-height: 2; 
+}
