@@ -5,6 +5,8 @@
 
 */
 
+import { Link } from 'react-router-dom';
+
 import React from 'react';
 
 const LinksBlock = props => {
@@ -21,7 +23,12 @@ const LinksBlock = props => {
         // a unique key is needed when making lists in react-land
         key={heading + i} 
         >
-          <a href={link.href} className="LinksBlock__anchor">{link.desc}</a>
+          <Link
+            className="LinksBlock__anchor"
+            to={link.href}
+          >
+            {link.desc}
+          </Link>
       </li>
     )
   });

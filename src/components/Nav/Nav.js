@@ -16,7 +16,7 @@ const Nav = props => {
 
         <Link
           className="Nav__logo"
-          to="/glowspace"
+          to="/"
           onClick={props.onLogoClick}>
             <Logo style={{ height: "50px" }} />
         </Link>
@@ -33,7 +33,7 @@ const Nav = props => {
         <ul className={"Nav__list" + listClassToggler}>
           <li className="Nav__listItem">
             <Link 
-              to="/glowspace" 
+              to="/" 
               onClick={props.onClick}
               className="Nav__link"> 
                 <span className="Nav__listItemLabel">Forside</span>
