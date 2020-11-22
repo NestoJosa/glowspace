@@ -23,15 +23,15 @@ function App() {
         <ScrollToTop />
           <NavContainer />
         <Switch>
-          <Route path="/glowspace" component={Home} exact /> {/* added glowspace after slash */}
+          <Route path="/" component={Home} exact /> 
           <Route path="/login" component={Login} exact />
           <Route path="/register" component={Register} exact />
-          <Route path="/about" component={AboutUs} />
-          <Route path="/partners" component={Partners} />
+          <Route path="/about" component={AboutUs} exact />
+          <Route path="/partners" component={Partners} exact />
           <Route component={Error} />
         </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </main>
   );
 }
