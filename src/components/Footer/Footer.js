@@ -65,7 +65,7 @@ const links = {
     },
     {
       desc: 'find salon',
-      href: '/glowspace'
+      href: '/'
     },
     {
       desc: 'opret salon',
